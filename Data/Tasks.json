@@ -1,0 +1,77 @@
+{
+     "intents": [
+       {
+         "tag": "hello",
+         "patterns": [
+           "hello",
+           "hi",
+           "hey",
+           "Miki",
+           "Hi Miki",
+           "Hello Miki"
+         ],
+         "responses": [
+           "Hello Sir :",
+           "Hey, I was really waiting for your presence",
+           "Hey, I was literally waiting for your presence",
+           "Hey, I was waiting for your presence",
+           "Hi, I was  waiting for you",
+           "Hello Sir, I was waiting for you",
+           "Hi Sie, I was waiting for you",
+           "Hello Sir, Nice meeting you",
+           "Hi Sir, Nice meeting you again",
+           "I am Listing you Sir",
+           "Hello",
+           "Hi , What's up",
+           "Hi Sie, I am here for you"
+         ]
+       },
+       {
+         "tag": "bye",
+         "patterns": [
+           "bye",
+           "goodbye",
+           "see you later",
+           "sleep",
+           "exit",
+           "quit",
+           "Shutting down the system"
+         ],
+         "responses": [
+           "Bye :",
+           "Are you sure Sir?",
+           "Bye Sir, Have a nice day",
+           "Good bye Sir",
+           "I will be there for you again Sir",
+           "See you later"
+
+         ]
+
+       },
+       {
+            "tag":"open",
+            "patterns":["open","start","launch","visit"
+            ],
+            "responses":["Opening"
+
+            ]
+        },
+         {
+            "tag":"Search",
+            "patterns":["Search","Find","Search for"
+            ],
+            "responses":["Searching"
+
+            ]
+        },
+
+       {
+            "tag":"wikipedia",
+            "patterns":["Search","Find","Search for","What","Where","Who","How","When","Which","Whom","Why","Whose"
+            ],
+            "responses":["So According to wikipedia"
+
+            ]
+        }
+    ]
+ }
